@@ -3,10 +3,10 @@ Indonesia Sehat merupakan Website yang dibuat untuk memberikan informasi mengena
 
 Tampilan dari website sebagai berikut:
 
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/1.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/2.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/3.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/4.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/5.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/6.png)
-![img](https://github.com/fadhildwia/Aplikasi-konversi-suhu/blob/master/Screenshot/7.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/1.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/2.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/3.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/4.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/5.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/6.png)
+![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/7.png)
