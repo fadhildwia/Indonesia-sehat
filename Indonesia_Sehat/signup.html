@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" ng-app="">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!-- font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- google font -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+   <!-- CSS login -->
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+   <!-- CSS resource-->
+   <link rel="stylesheet" type="text/css" href="./assets/css/signup.css">
+
+   <!-- jquery-->
+   <script src="assets/js/jquery/jquery-3.4.1.min.js"></script>
+
+   <!-- angular -->
+<script src="angular.min.js"></script>
+    <!-- rechapta -->
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   <title>Sign Up</title>
+
+</head>
+
+<body ng-app="MyApp">
+
+        <div id="logreg-forms">
+    
+                <form name="myForm" ng-submit="submit()" class="form-horizontal" novalidate novalidate>
+                        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign Up</h1>
+                   
+                        
+                        <div class="form-label-group">
+                            <input type="username" id="inputUsername" class="form-control" placeholder="Username" name="username"
+                                ng-model="username" required>
+                            <span style="color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" ng-show="myForm.username.$touched && myForm.username.$invalid">Masukan username
+                                Anda</span>
+        
+                        </div>
+
+
+                        <div class="form-label-group">
+        
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="myName"
+                                ng-model="myName" required />
+                            <span style="color:black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" ng-show="myForm.myName.$touched && myForm.myName.$invalid">Email Anda salah. Email harus menggunakan '@'</span>
+        
+                        </div>
+        
+                        <div class="form-label-group">
+                            <input type="password" id="inputPassword" class="form-control" placeholder=" Set Password" name="pass"
+                                ng-model="pass" required>
+                            <span style="color: black; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" ng-show="myForm.pass.$touched && myForm.pass.$invalid">Masukan password
+                                Anda</span>
+        
+                        </div>
+
+                    <br>
+                   
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"
+                    ng-disabled="myForm.$invalid" onclick="window.location.href='index2.html'"><a href="index2.html">
+                    <p style="color: white;">Get Started</p></a></button>
+        
+                    <hr>
+                </form>
+                <br>
+            </div>
+
+  <!-- angular -->
+  <script>
+        var app = angular.module("MyApp", []);
+
+        app.controller("User", function ($scope) {
+            $scope.submit = function () {
+                $scope.wasSubmitted = true;
+            };
+        });
+    </script>
+
+
+<!-- slidingbackground -->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+    $.backstretch(
+    [
+        "assets/img/masuk1.jpg",
+        "assets/img/masuk2.jpg",
+        "assets/img/masuk3.jpg"
+    ], 
+    {
+        duration: 1200, 
+        fade: 600
+    });
+</script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
