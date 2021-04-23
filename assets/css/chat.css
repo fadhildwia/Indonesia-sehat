@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    height: 800px;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    margin-top: 69px;
+    font-weight: bold;
+}
+
+
+
+
+/*overflow scroll chat box*/
+div .msg_card_body{
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.rounded-circle{
+    padding: 10px;
+    height: 50px; 
+    width: 50px;
+}
+
+
+
+.fa-search::before {
+    content: "\f002";
+}
+
+.user_img{
+	width: 40px;
+	height: 40px;
+}
+
+.chat {
+display: flex;
+}
+
+
+
+
+header {
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: bold;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadows {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link-button-container {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+    .chat-main{
+        bottom: 0;
+        right:120px;
+        position: fixed;
+    }
+    .chat-header{
+        background: #E5EFC1;
+        border:1px solid #D7DF71;
+    }
+    .image img{
+        height: 40px;
+        width: 40px;
+    }
+    .user-detail h6{
+        display: inline-block;
+    }
+    .user-detail .active{
+        color: #32B92D;
+        font-size: 12px;
+    }
+    .options i{
+        color: #a1a1a1;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    .chat-content, .chat-content .sender, .user-detail h6{
+        font-size: 14px;
+    }
+    .chat-content ul{
+        height: 260px;
+        overflow-x: scroll;
+        overflow-x: hidden;
+    }
+    .chat-content ul li{
+        list-style: none;
+        background: #F5F5F5;
+    }
+    .chat-content .msg-box{
+        background: #e1e1e1;
+    }
+    .chat-content .msg-box .send-btn{
+        background: #39AEA9;
+    }
+    .chat-content .time{
+        font-size: 10px;
+        color: #a1a1a1;
+    }
+
+
+
+.justify-content-start  a {
+    padding: 10px;
+    color: white;
+}

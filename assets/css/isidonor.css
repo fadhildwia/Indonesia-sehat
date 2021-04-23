@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    height: 800px;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    margin-top: 70px;
+}
+
+/* Isi donor */
+
+.card{
+    border-style: solid; border-color: #38A1F3;
+    border-top: 3px solid #38A1F3;
+}
+
+.container .col h1{
+    font-family: 'Bauhaus 93';
+    font-size: 50px;
+}
+
+.card .card-body .h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+.color-a{
+    color: #3EC1D5;
+}
+
+
+.justify-content-start  {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to top left, #33ccff 0%, #9966ff 100%);
+    border-radius: 30px;
+
+}
+
+.justify-content-start  a {
+    padding: 10px;
+    color: #38A1F3;
+}
+
+.justify-content-start a {
+    color: white;
+}
+
+.justify-content-end{
+    font-size: 50px;
+}
+
+.justify-content-end span{
+    color: darkgray;
+    font-size: 20px;
+    padding: 25px;
+}
+
+
+img {
+    max-width: 100%;
+    margin: 20px;
+}
+
+.color-darkgrey{
+    color: darkgrey;
+}
+
+
+.entry-meta li,
+.item-meta li {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 24px 0 0;
+    text-transform: capitalize;
+}
+
+.entry-meta li i,
+.item-meta li i {
+    margin-right: 6px;
+    color: #38A1F3;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: x-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+hr{
+    border-top: 3px solid #38A1F3;
+}
+
+.section-header{
+    font-weight: bold;
+}
+
+
+/* Scroll to top donor */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 129, 187);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 45px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
+.emoji {
+    width: 50px;
+    height: 50px;
+}
+
+.foto {
+    width: 800px;
+    height: 800px;
+}

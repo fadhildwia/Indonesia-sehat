@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- font awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- WOW transition -->
+    <link rel="stylesheet" href="assets/js/wow/css/libs/animate.css">
+
+    <!-- CSS resource-->
+    <link rel="stylesheet" type="text/css" href="assets/css/carirs.css">
+    <title>cari_rumah_sakit</title>
+</head>
+
+<body ng-app="">
+<!-- Navbar form -->
+  <div ng-include="'navbar.html'"></div>
+
+
+   <!-- start form Cari Rumah Sakit -->
+   <div class="hero-image">
+       <div class="hero-text">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+               <div class="d-flex justify-content-between  mb-3 animated slideInRight">
+                   <div style="text-align: left;">
+                    <div class="p-0 text-white">
+                        <h2>Temukan rumah sakit yang tepat dan terdekat dari lokasi</h2>
+                    </div>
+                    <div class="p-0 text-white">
+                        <p>Bandingkan estimasi biaya tindakan medis dari berbagai rumah sakit dan klinik terbaik di seluruh Indonesia.
+                        </p>Booking jadwal konsultasi dengan dokter pilihanmu</p>
+                        </div>
+                    </div>
+                </div>
+            
+            
+        </div>
+        <div class="container-fluid" style="width: 1340px; ">
+                <div class="row justify-content-center animated slideInLeft">                                     
+                     <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                                    <p>Mencari informasi mengenai:</p>
+                                <input type="text" class="form-control search-slt" placeholder="Tindakan Medis">
+                                
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                            <p>Lokasi:</p>
+                        <select class="form-control search-slt" id="exampleFormControlSelect1">
+                            <option>Select Location</option>
+                            <option>Yogyakarta</option>
+                            <option>Jakarta</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 p-4">
+                         <br>
+                        <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  <div class="container">
+        <div class="row card-deck animated slideInUp">
+            <div class="card mb-4">
+                    <div class="inner">
+                            <a href="rs.html"><img class="card-img-top" src="assets/img/carirs2.jpg" height="300px" alt="Card image cap"></a>
+                        </div>
+                <div class="card-body">
+                    <a href="rs.html">Endoskopi</a>
+                    <br>
+                    <a href="rs.html">Operasi Turun Berok</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                    <div class="inner">
+                            <a href="rs.html"><img class="card-img-top" src="assets/img/carirs3.jpg" height="300px" alt="Card image cap"></a>
+                        </div>
+                <div class="card-body">
+                    <a href="rs.html">Cek Kolesterol</a><br>
+                    <a href="rs.html">Tes Narkoba</a><br>
+                    <a href="rs.html">Tes HIV</a><br>
+                    <a href="rs.html">Profil Lemak</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                    <div class="inner">
+                            <a href="rs.html"><img class="card-img-top" src="assets/img/carirs4.jpg" height="300px" alt="Card image cap"></a>
+                        </div>
+                <div class="card-body">
+                    <a href="rs.html">CT Scan</a><br>
+                    <a href="rs.html">MRI Scan</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Footer form -->
+<div ng-include="'footer.html'" id="footer"></div>
+
+<script>
+    new WOW().init();
+</script>
+<script src="assets/js/wow/dist/wow.js"></script>
+    
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</body>
+
+</html>
