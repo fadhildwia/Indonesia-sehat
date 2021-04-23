@@ -9,4 +9,3 @@ Tampilan dari website sebagai berikut:
 ![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/4.png)
 ![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/5.png)
 ![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/6.png)
-![img](https://github.com/fadhildwia/Indonesia-sehat/blob/master/Screenshot/7.png)
